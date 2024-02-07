@@ -3,7 +3,7 @@
 
 Hi all, I'm Nate, a security researcher and a master's student in Cyber Security and Forensics.
 
-I would like to disclose a critical vulnerability I found in one of your wallets at https://etherscan.io/address/0x8811bfb8bb23a64f7dfa0a545654ab942dc4ad30, which holds assets worth more than $4 million at this time of writing. I have created this private repository with the required code dependencies specifically for demonstration with the company GSR to provide a proof of concept for the vulnerability I am disclosing.
+I would like to disclose a critical vulnerability I found in one of your wallets at https://etherscan.io/address/0x8811bfb8bb23a64f7dfa0a545654ab942dc4ad30, which holds assets worth more than $4 million at this time of writing. I have created this private repository with the required code dependencies specifically for demonstration to provide a proof of concept for the vulnerability I am disclosing.
 
 
 ## Brief Introduction
