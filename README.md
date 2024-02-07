@@ -3,7 +3,7 @@
 
 Hi all, I'm Nate, an Ethereum security researcher and a master's student in Cyber Security and Forensics.
 
-I would like to disclose a critical vulnerability I found in one of your wallets at https://etherscan.io/address/0x8811bfb8bb23a64f7dfa0a545654ab942dc4ad30, which holds assets worth more than $4 million. I have created this private repository with the required code dependencies specifically for demonstration with the company GSR to provide a proof of concept for the vulnerability I am disclosing.
+I would like to disclose a critical vulnerability I found in one of your wallets at https://etherscan.io/address/0x8811bfb8bb23a64f7dfa0a545654ab942dc4ad30, which holds assets worth more than $4 million at this time of writing. I have created this private repository with the required code dependencies specifically for demonstration with the company GSR to provide a proof of concept for the vulnerability I am disclosing.
 
 
 ## Brief Introduction
@@ -73,3 +73,8 @@ This search took approximately 21 days of intermittent running of the script to 
 ## Mitigation
 
 To mitigate this issue, it's recommended to remove this wallet from your list of proprietary operational wallets. Given that anyone with sufficient resources and expertise could potentially brute-force the private key, there's a risk of unauthorised access to the funds held in this wallet.
+
+Please let me know if any part needs further explanation or clarification.
+
+Sincerely,
+Nate
