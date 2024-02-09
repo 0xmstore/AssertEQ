@@ -82,7 +82,7 @@ Please let me know if any part needs further explanation or clarification.
 
 ## Disclaimer
 
-The vulnerability details disclosed in this document are intended solely for the understanding and resolution. The information is confidential and should be treated as such, not to be disclosed or discussed outside authorised channels. It is provided in good faith to support security awarness and should not be used for any unauthorised or unlawful activities. The author assumes no liability for any actions taken by individuals or entities based on this information, and any misuse of this disclosure may be subject to legal action. All information herein have been reported responsibly and ethically to the appropriate parties.
+The vulnerability details disclosed in this document are intended solely for understanding and resolution. The information is confidential and should be treated as such, not to be disclosed or discussed outside authorised channels. It is provided in good faith to support security awarness and should not be used for any unauthorised or unlawful activities. The author assumes no liability for any actions taken by individuals or entities based on this information, and any misuse of this disclosure may be subject to legal action. All information herein have been reported responsibly and ethically to the appropriate parties.
 
 
 Sincerely,
