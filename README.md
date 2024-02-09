@@ -25,8 +25,11 @@ I noticed the repetition of numbers and characters in the address, which led me 
 
 I started the brute-force process on the address "0x8811BfB8BB23a64f7dFa0a545654Ab942dc4AD30" to uncover its corresponding private key, following these steps:
 
-I used my MacBook M2 Pro with 16 GB of RAM.
-
+## Requirements
+- A machine equipped with a high-performance GPU.
+- A machine with a minimum of 32GB of RAM.
+- A machine that will not disrupt ongoing workflows.
+- A machine that is not critical for your work, as the intensive GPU usage may lead to system crashes.
 
 ### 1. Build the project
     
