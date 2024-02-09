@@ -8,7 +8,7 @@ I have created this private repository with the required code dependencies speci
 
 ## Brief Introduction
 
-Profanity is specialized software for generating Ethereum vanity addresses. It harnesses GPU capabilities using OpenCL to efficiently perform this task. The process begins by generating a random private key, then computes the corresponding public key, and ultimately derives the Ethereum address from it. This method benefits from the parallel processing capabilities of GPUs, enhancing the speed and efficiency of creating customized Ethereum addresses.
+Profanity is specialised software for generating Ethereum vanity addresses or "fancy looking" addresses. It harnesses GPU capabilities using OpenCL to efficiently perform this task. The process begins by generating a random private key, then computes the corresponding public key, and ultimately derives the Ethereum address from it. This method benefits from the parallel processing capabilities of GPUs, enhancing the speed and efficiency of creating customized Ethereum addresses.
 
 However, the issue with Profanity is that it uses a random 32-bit vector to seed 256-bit private keys, making it possible to brute-force private keys for wallets generated using this tool.
 
@@ -21,7 +21,7 @@ This tool is designed to exploit a vulnerability in the method used for generati
 
 I reported an approval exploit in one of GSR's wallets nearly two months ago, where one of the wallets had inadvertently granted a vulnerable contract unlimited allowance to spend its holdings. I reviewed all the addresses they had [labeled on Spotonchain](https://platform.spotonchain.ai/en/entity/807) and noticed the padding style of [this particular address](https://etherscan.io/address/0x8811bfb8bb23a64f7dfa0a545654ab942dc4ad30).
 
-I noticed the repetition of numbers and characters in the address, which led me to suspect it might have been generated using a vanity address creation interface. Prompted by this, I began examining various psotmortems of previously exploited vanity addresses. My goal was to replicate the methods used in those instances to achieve a similar outcome with this address.
+I noticed the repetition of numbers and characters in the address, which led me to suspect it might have been generated using a vanity address creation interface. It was clear that Profanity was not used in generating this address. However, the interface used to generate the address might have utilised a random 32-bit vector to seed the 256-bit private key similar to how Profanity works. Prompted by this, I began examining various psotmortems of previously exploited vanity addresses. My aim was to reverse engineer the methods used in those instances to achieve a similar outcome with this address.
 
 I started the brute-force process on the address "0x8811BfB8BB23a64f7dFa0a545654Ab942dc4AD30" to uncover its corresponding private key, following these steps:
 
