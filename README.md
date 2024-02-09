@@ -21,7 +21,7 @@ This tool is designed to exploit a vulnerability in the method used for generati
 
 I reported an approval exploit in one of GSR's wallets nearly two months ago, where one of the wallets had inadvertently granted a vulnerable contract unlimited allowance to spend its holdings. I reviewed all the addresses they had [labeled on Spotonchain](https://platform.spotonchain.ai/en/entity/807) and noticed the padding style of [this particular address](https://etherscan.io/address/0x8811bfb8bb23a64f7dfa0a545654ab942dc4ad30).
 
-I noticed the repetition of numbers and characters in the address, which led me to suspect it might have been generated using a vanity address creation interface. Prompted by this, I began examining various case studies of previously exploited vanity addresses. My goal was to replicate the methods used in those instances to achieve a similar outcome with this address.
+I noticed the repetition of numbers and characters in the address, which led me to suspect it might have been generated using a vanity address creation interface. Prompted by this, I began examining various psotmortems of previously exploited vanity addresses. My goal was to replicate the methods used in those instances to achieve a similar outcome with this address.
 
 I started the brute-force process on the address "0x8811BfB8BB23a64f7dFa0a545654Ab942dc4AD30" to uncover its corresponding private key, following these steps:
 
