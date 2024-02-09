@@ -57,7 +57,7 @@ Raw Tx Hex: `0x02f8b10109843b9aca008501ee8cd8b58301189c946e2a43be0b1d33b726f0ca3
 
 ### 4. Reconsutruct the public key
 
-To obtain the public key from the raw transaction, utilize the `pubkey.py` script.
+To obtain the public key from the raw transaction, deploy the `pubkey.py` script.
 
     $ pip install -r requirements.txt
     $ python pubkey.py -t 0x02f87201048459682f0085013d2a27d082520894000000000d1c18a47a23c5826b2567c864a7d414880328ddd5c0dafd7880c001a0c7065b5d54ebcfb3a4325bbd80e0a352500784e2b12cfee614f8ab179ef9cd479fd78e0651f4f408db5420c785204b704ac14de95b18efb913036d9845906da2
