@@ -14,7 +14,7 @@ However, the issue with Profanity is that it uses a random 32-bit vector to seed
 
 Read more about the exploit in [this blog post](https://medium.com/amber-group/exploiting-the-profanity-flaw-e986576de7ab#:~:text=Profanity%20is%20an%20Ethereum%20vanity,then%20derives%20the%20Ethereum%20address.).
 
-# Profanity Brute-force
+## Profanity Brute-force
 This tool is designed to exploit a vulnerability in the method used for generating certain vanity Ethereum addresses. It aims to reconstruct the private keys of wallets created through interfaces that utilised the Profanity tool. This vulnerability arises from specific flaws in Profanity's address generation process.
 
 ## How I Discovered This Wallet Is Affected
@@ -80,7 +80,7 @@ To mitigate this issue, it's recommended to remove this wallet from your list of
 Please let me know if any part needs further explanation or clarification.
 
 
-# Disclaimer
+## Disclaimer
 
 The vulnerability details disclosed in this document are intended solely for the understanding and resolution. The information is confidential and should be treated as such, not to be disclosed or discussed outside authorised channels. It is provided in good faith to support security awarness and should not be used for any unauthorised or unlawful activities. The author assumes no liability for any actions taken by individuals or entities based on this information, and any misuse of this disclosure may be subject to legal action. All information herein have been reported responsibly and ethically to the appropriate parties.
 
