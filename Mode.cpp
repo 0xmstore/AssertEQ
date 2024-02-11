@@ -197,3 +197,11 @@ Mode Mode::doubles() {
 	r.kernel = "profanity_score_doubles";
 	return r;
 }
+
+
+
+
+
+
+
+
