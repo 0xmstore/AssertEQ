@@ -14,8 +14,8 @@ I started the brute-force process on the address "0x66F38834895920589f66a8EaBc2b
 
 ### 1. Build the project
     
-    $ git clone https://github.com/0xmstore/GSR
-    $ cd GSR
+    $ git clone https://github.com/0xmstore/AssertEQ
+    $ cd AssertEQ
     $ make
 
 
