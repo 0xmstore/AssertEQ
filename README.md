@@ -51,7 +51,7 @@ Once you have successfully recover the publickey, the next step is to run the se
 
 ### 6. Results
 
-This search took approximately 21 days of intermittent running of the script to be able to generate the private key due to my MacBook M2 Pro's GPU power limitations. Successfully generating a private key signals a vulnerability. **However, if it fails to do so, it does not necessarily indicate that the wallet is safe!** You can try running step 5 with additional steps.
+This search took approximately 21 days of intermittent running of the script to be able to generate the private key due to my computer's GPU power limitations. Successfully generating a private key signals a vulnerability. **However, if it fails to do so, it does not necessarily indicate that the wallet is safe!** You can try running step 5 with additional steps.
 
 
 ## Disclaimer
